@@ -1,4 +1,4 @@
-# Command-pattern is a structural design pattern
+# Command-pattern is a behavioral design pattern
 
 This model allows us to decouple objects that produce the commands from their consumers, so that's why the pattern is commonly known as the producer-consumer pattern.
 In a classic implementation, the command pattern requires implementing four components (in the example, I have mentioned the class in respective component): 
