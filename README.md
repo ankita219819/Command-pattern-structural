@@ -2,7 +2,7 @@
 
 This model allows us to decouple objects that produce the commands from their consumers, so that's why the pattern is commonly known as the producer-consumer pattern.
 In a classic implementation, the command pattern requires implementing four components (in the example, I have mentioned the class in respective component): 
-	the Command (AccountStatus, AccountOpening, AccountClosing), 
-	the Receiver (didn't have), 
-	the Invoker (AccountStatusChangeExecuter), and 
-	the Client (main method).
+1. the Command (AccountStatus, AccountOpening, AccountClosing), 
+2. the Receiver (didn't have), 
+3. the Invoker (AccountStatusChangeExecuter), and 
+4. the Client (main method).
